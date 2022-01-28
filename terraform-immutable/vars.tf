@@ -11,3 +11,7 @@ variable "NEXUS_USER" {
 variable "NEXUS_PASS" {
   default = ""
 }
+
+variable "min_size" {}
+variable "max_size" {}
+variable "desired_capacity" {}
